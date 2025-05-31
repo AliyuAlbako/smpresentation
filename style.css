@@ -1,0 +1,36 @@
+ body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #0b132b;
+            color: #f5f5f5;
+            margin: 0;
+            overflow: hidden;
+        }
+        .slide {
+            display: none;
+            padding: 50px;
+            text-align: center;
+        }
+        .slide.active {
+            display: block;
+        }
+        h1, h2 {
+            color: #ffcc00;
+        }
+        .nav {
+            position: fixed;
+            bottom: 20px;
+            width: 100%;
+            text-align: center;
+        }
+        button {
+            background: #ffcc00;
+            color: #0b132b;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #ffaa00;
+        }
